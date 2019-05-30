@@ -1,5 +1,17 @@
 import React from "react";
 
+/***
+ * @description
+ * Presents the question with a list of possible answers.
+ * The props:
+ * @prop {string} question
+ * contains the question object to present
+ * @prop {string} playerAnswer
+ * contains the answer selected by the player
+ * @prop {function} onAnswerSelected
+ * contains function that should be called when the player selects the anaswer. Selected answer
+ * should be passed as function argument
+ */
 export function QuestionPresenter(props) {
   const { question } = props;
   const { answers } = question;
