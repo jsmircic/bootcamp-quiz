@@ -41,7 +41,6 @@ button {
   font-size: 30px;
 }
 button:hover {
-  background-color: lightgreen;
   cursor: pointer;
 }
 
@@ -50,4 +49,8 @@ button:hover {
   font-weight: 400;
   display: grid;
   place-content: center;
+}
+
+.button-answer-selected {
+  background-color: orange;
 }
